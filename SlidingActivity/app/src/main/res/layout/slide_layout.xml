@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vitaviva.com.slidingactivity.slidingactivity.SlidingLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/slide_layout"
+        android:background="#666666"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+            android:id="@+id/iv_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"/>
+    <FrameLayout
+            android:id="@+id/content_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+</vitaviva.com.slidingactivity.slidingactivity.SlidingLayout>
